@@ -26,6 +26,9 @@ header{
     align-items: center;
     padding: 50px;
 }
+.header-nav .header-center{
+    flex: 1;
+}
 .header-nav .header-center ul{
     display: flex;
     justify-content: center;
