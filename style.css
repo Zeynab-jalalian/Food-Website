@@ -128,7 +128,7 @@ header{
 .header-main h1{
     margin: 5px 0;
 }
-#check , #bars , #xmark{
+#check , #bars , #xmark , .header-main-left .h2{
     display: none;
 }
 /* responsive */
@@ -189,7 +189,7 @@ header{
         margin-left: 20px;
         transition: 0.3s;
         position: fixed;
-        right: 10px;
+        right: 20px;
         top: 30px;
     }
     label #xmark{
@@ -213,7 +213,57 @@ header{
     .header-right .login {
         padding: 3px 5px;
     }
-    .logo{
-        width: 60px;
+}
+@media (max-width:700px){
+    .header-main .header-main-right img {
+        width: 400px;
+    }
+}
+@media (max-width:650px){
+    .header-main{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header-main .header-main-right img {
+        width: 600px;
+        margin: 0;
+    }
+    .header-main .header-main-left {
+        justify-content: center;
+        align-items: center;
+    }
+    .header-main p{
+        text-align: center;
+    }
+}
+@media (max-width:630px){
+    .header-main h1{
+        display: none;
+    }
+    .header-main .h2{
+        display: block;
+        text-align: center;
+    }
+    .header-main .h2 span{
+        color: rgb(255, 166, 0);
+    }
+}
+@media (max-width:500px){
+    .header-main .header-main-left{
+        margin-top: 30px;
+    }
+}
+@media (max-width:420px){
+    .header-main .header-main-left{
+        margin-top: 60px;
+    }
+    .header-main a {
+        text-align: center;
+        font-size: 12px;
+    }
+}
+@media (max-width:350px){
+    .header-main-left p{
+        width: 230px;
     }
 }
