@@ -266,4 +266,12 @@ header{
     .header-main-left p{
         width: 230px;
     }
+    .header-main .header-main-right img{
+        width: 300px;
+    }
+}
+@media (max-width:320px){
+    .header-nav .logo{
+        display: none;
+    }
 }
