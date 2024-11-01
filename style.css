@@ -252,7 +252,7 @@ header{
         cursor: pointer;
         margin-left: 20px;
         transition: 0.3s;
-        position: fixed;
+        position: absolute;
         right: 20px;
         top: 30px;
     }
