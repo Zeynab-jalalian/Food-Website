@@ -296,6 +296,15 @@ header{
     .header-main .header-main-right img{
       margin-left: 0;
     }
+    .special .items .item:nth-child(1){
+        display: none;
+    }
+    .special .items #angle{
+        margin-left: 20px;
+    }
+    .special .items .item {
+        width: 30%;
+    }
 }
 @media (max-width:630px){
     .header-main h1{
@@ -314,6 +323,14 @@ header{
         margin-top: 30px;
     }
 }
+@media (max-width:450px){
+    .special .items .item:nth-child(2){
+        display: none;
+    }
+    .special .items .item {
+        width: 50%;
+    }
+}
 @media (max-width:420px){
     .header-main .header-main-left{
         margin-top: 60px;
@@ -326,6 +343,9 @@ header{
 @media (max-width:350px){
     .header-main-left p{
         width: 230px;
+    }
+    .special .items .item:nth-child(3){
+        display: none;
     }
 }
 @media (max-width:320px){
