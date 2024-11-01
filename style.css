@@ -151,7 +151,7 @@ header{
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 300px;
+    height: 100%;
     margin: auto 10px;
 }
 .special div img{
@@ -163,6 +163,7 @@ header{
     color: #1b5b2e;
     font-size: 18px;
     text-align: center;
+    margin: 20px auto;
 }
 
 
