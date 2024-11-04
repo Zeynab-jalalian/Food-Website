@@ -214,9 +214,19 @@ main .card div{
     align-items: center;
     margin: 10px 0;
 }
-
-
-
+main .card div span{
+    background: rgb(255, 174, 0);
+    padding: 5px;
+    font-size: 15px;
+}
+main .card div p{
+    color: #1b5b2e;
+    font-size: 16px;
+}
+main .card img{
+    border-radius: 20px;
+    cursor: pointer;
+}
 
 
 
