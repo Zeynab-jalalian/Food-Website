@@ -235,6 +235,13 @@ main .card img{
  .header-main .header-main-left{
     padding: 0;
  }
+ main .card img{
+    height: 200px;
+ }
+ main .card div p {
+    color: #1b5b2e;
+    font-size: 13px;
+}
  
 }
 @media (max-width:960px){
@@ -245,6 +252,11 @@ main .card img{
 @media (max-width:930px){
     .header-nav .header-center ul li{
         margin: 0 10px;
+    }
+}
+@media (max-width:850px){
+    main .card div p {
+        font-size: 12px;
     }
 }
 @media (max-width:800px){
@@ -307,6 +319,13 @@ main .card img{
        position: absolute;
        z-index: 10;
     }
+    main{
+        justify-content: center;
+    }
+    main .card {
+        width: calc(50% - 30px);
+        margin:10px;
+    }
 }
 @media (max-width:750px){
     .header-right .login {
@@ -351,6 +370,12 @@ main .card img{
     }
     .header-main .h2 span{
         color: rgb(255, 166, 0);
+    }
+}
+@media (max-width:590px){
+    main .card{
+        width: 100%;
+        margin:20px 0;
     }
 }
 @media (max-width:500px){
