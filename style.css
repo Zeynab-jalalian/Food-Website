@@ -276,6 +276,18 @@ main .card img{
 .costomer .costomer-right span:last-child{
    color: #a7a7a7;
 }
+.costomer .costomer-left img{
+    object-fit: cover;
+    border-radius: 50px;
+    margin-right: 30px;
+}
+.costomer .costomer-right > div img{
+    border-radius: 50%;
+    border: 1px solid #000;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
 /* responsive */
 @media (max-width:1100px){
  .header-main .header-main-left{
