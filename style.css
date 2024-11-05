@@ -251,6 +251,31 @@ main .card img{
     justify-content: start;
     align-items: center;
 }
+.costomer .costomer-right h1{
+    max-width: 340px;
+}
+.costomer .costomer-right p{
+    margin: 10px 0;
+    color: #1b5b2e;
+    max-width: 385px;
+}
+.costomer .costomer-right img{
+    margin-right: 10px;
+}
+.costomer .costomer-right h3{
+    margin-top: 10px;
+}
+.costomer .costomer-right h6{
+    color: #acacac;
+    font-size: 12px;
+}
+.costomer .costomer-right span{
+    font-size: 12px;
+    color: rgb(255, 196, 0);
+}
+.costomer .costomer-right span:last-child{
+   color: #a7a7a7;
+}
 /* responsive */
 @media (max-width:1100px){
  .header-main .header-main-left{
