@@ -493,11 +493,7 @@ footer {
     footer .logo p{
         text-align: center;
     }
-    footer div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+   
 }
 @media (max-width:780px){
     .costomer {
