@@ -291,6 +291,21 @@ main .card img{
     height: 70px;
     object-fit: cover;
 }
+footer .logo p{
+    color: #1b5b2e;
+}
+footer .logo ul li a span{
+    color: #262626;
+    margin: 0 10px;
+    font-size: 14px;
+}
+footer div h2{
+    color: #262626;
+    font-size: 22px;
+}
+footer .abouttt ul li, .company ul li,.support ul li{
+    color: #505050;
+}
 /* responsive */
 @media (max-width:1100px){
  .header-main .header-main-left{
