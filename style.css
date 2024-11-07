@@ -357,10 +357,28 @@ footer .touch input{
     border-radius: 50px;
     width: 400px;
 }
+footer {
+    padding: 50px;
+}
 }
 @media (max-width:1000px){
     .costomer .costomer-right p {
         max-width: 250px;
+    }
+}
+@media (max-width:900px){
+    footer div h2{
+        font-size: 15px;
+    }
+    footer div ul li{
+        font-size: 13px;
+    }
+    footer .touch input{
+        padding: 5px;
+        width: 80%;
+    }
+    footer .logo p {
+        max-width: 200px;
     }
 }
 @media (max-width:960px){
@@ -463,6 +481,9 @@ footer .touch input{
     }
     .costomer .costomer-left img {
         width: 350px;
+    }
+    footer{
+        flex-direction: column;
     }
 }
 @media (max-width:780px){
