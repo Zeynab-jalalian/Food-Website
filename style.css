@@ -540,3 +540,8 @@ main .card img{
         width: 200px;
     }
 }
+@media (max-width:230px){
+    .costomer .costomer-right > div {
+        display: block;
+    }
+}
