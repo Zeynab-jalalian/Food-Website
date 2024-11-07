@@ -323,6 +323,10 @@ footer .logo ul li a span{
 footer div h2{
     color: #262626;
     font-size: 20px;
+    margin-bottom: 20px;
+}
+footer div ul li{
+    margin: 5px auto;
 }
 footer .abouttt ul li, .company ul li,.support ul li{
     color: #505050;
