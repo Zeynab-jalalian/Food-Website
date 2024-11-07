@@ -331,7 +331,15 @@ footer div ul li{
 footer .abouttt ul li, .company ul li,.support ul li , .touch ul li{
     color: #505050;
 }
-
+footer .touch input{
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: #505050;
+    border: none;
+    outline: none;
+    border: 1px solid #505050;
+}
 /* responsive */
 @media (max-width:1100px){
  .header-main .header-main-left{
